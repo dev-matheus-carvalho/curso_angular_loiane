@@ -1,0 +1,22 @@
+<section>
+  <article>
+    <h1>Interpolação</h1>
+
+    <h5>String renderizada com Interpolaçao: <a href="www.google.com">{{ url }}</a></h5>
+
+    <br>
+
+    <h5>A soma de {{ num1 }} + {{ num2 }} = {{ num1 + num2 }}</h5>
+
+    <br>
+
+    <h5>A soma de {{ num1 }} + {{ num2 }} não é {{ getValor() }}</h5>
+  </article>
+
+  <article>
+    <h1>Propety Binding</h1>
+
+    <img src="{{ imagem1 }}">
+    <img [src]="imagem2">
+  </article>
+</section>
